@@ -10,6 +10,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <style>
+        img {
+            width: 100px;
+        }
+    </style>
   </head>
   <body>
     <h1 class="text-center"><u>Showing data into table</u></h1>
@@ -17,21 +22,17 @@
       <table class="table table-bordered">
         <thead class="table-dark">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">No.</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Image</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-        </tbody>
+        <tbody id="table_body"></tbody>
       </table>
     </div>
+    <script src="script.js"></scrip>
   </body>
 </html>
